@@ -39,7 +39,7 @@ Enlaces del menú privado:
 
 Deberá aparecer un logo y el nombre de la web en la cabecera y algún contenido estático en el pie.
 
-4. Configura el routing para asingar una url a cada una de las 7 páginas de los menús. Puedes enseñar (de momentos) los dos menús simultáneamente en la pantalla para comprobar que funcionan.
+4. Configura el routing para asingar una url a cada una de las 7 páginas de los menús. Puedes enseñar (de momento) los dos menús simultáneamente en la pantalla para comprobar que funcionan.
 
 Los componentes todavía no tienen ningún contenido. No hay que programarlos. En este punto basta con que existan y se muestra su contenido por defecto: 'xxxxxx works'
 
