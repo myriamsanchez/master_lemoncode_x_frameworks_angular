@@ -1,8 +1,12 @@
 
 <!-- Header -->
 <div class="toolbar" role="banner">
-  <app-public-header></app-public-header>
-  <app-private-header></app-private-header>
+  <ng-container *ngIf="logged === false || !logged" else loggedHeader>
+    <app-public-header></app-public-header>
+  </ng-container>
+  <ng-template #loggedHeader>
+    <app-private-header></app-private-header>
+  </ng-template>
 </div>
 
 <div class="content" role="main">
