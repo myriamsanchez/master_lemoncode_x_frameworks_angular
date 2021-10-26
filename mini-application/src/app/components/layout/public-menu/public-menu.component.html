@@ -7,23 +7,28 @@
     <span class="menu-items-spacer"></span>
     <span>Kitties Mini App</span>
     <span class="menu-spacer"></span>
-    <button
-      mat-flat-button
-      color="primary"
-      aria-label="Home menu button">
-      Home
-    </button>
-    <button
-      mat-flat-button
-      color="primary"
-      aria-label="Login menu button">
-      Login
-    </button>
-    <button
-      mat-flat-button
-      color="primary"
-      aria-label="About menu button">
-      About
-    </button>
+    <nav>
+      <a
+        mat-flat-button
+        color="primary"
+        routerLink="/home"
+        aria-label="Home menu button">
+        Home
+      </a>
+      <a
+        mat-flat-button
+        color="primary"
+        routerLink="/login"
+        aria-label="Login menu button">
+        Login
+      </a>
+      <a
+        mat-flat-button
+        color="primary"
+        routerLink="/about"
+        aria-label="About menu button">
+        About
+      </a>
+    </nav>
   </mat-toolbar>
 </p>

@@ -7,6 +7,7 @@ import { PrivateMenuComponent } from './private-menu/private-menu.component';
 import { PublicHeaderComponent } from './public-header/public-header.component';
 import { PublicMenuComponent } from './public-menu/public-menu.component';
 import { NgModule } from '@angular/core';
+import { AppRoutingModule } from '../../app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NgModule } from '@angular/core';
     PublicMenuComponent,
   ],
   imports: [
+    AppRoutingModule,
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
