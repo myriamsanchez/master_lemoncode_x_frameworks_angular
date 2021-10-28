@@ -10,6 +10,10 @@ import { AboutModule } from './components/about/about.module';
 import { HomeModule } from './components/home/home.module';
 import { LayoutModule } from './components/layout/layout.module';
 import { LoginModule } from './components/login/login.module';
+import { DashboardModule } from './components/dashboard/dashboard.module';
+import { GalleryModule } from './components/gallery/gallery.module';
+import { CrudModule } from './components/crud/crud.module';
+import { ProfileModule } from './components/profile/profile.module';
 
 
 @NgModule({
@@ -17,18 +21,25 @@ import { LoginModule } from './components/login/login.module';
     AppComponent,
   ],
   imports: [
-    AboutModule,
-    HomeModule,
-    LoginModule,
     AppRoutingModule,
-    BrowserModule,
     BrowserAnimationsModule,
-    LayoutModule,
-    MatToolbarModule,
-    MatIconModule,
+    BrowserModule,
     MatButtonModule,
+    MatIconModule,
+    MatToolbarModule,
+
+    AboutModule,
+    CrudModule,
+    DashboardModule,
+    GalleryModule,
+    HomeModule,
+    LayoutModule,
+    LoginModule,
+    ProfileModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent,
+  ]
 })
 export class AppModule { }
